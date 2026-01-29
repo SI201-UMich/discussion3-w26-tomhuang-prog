@@ -19,8 +19,7 @@ class Rectangle():
     def area_calculator(self):
         area_of_rectangle = float(self.width * self.height)
         return area_of_rectangle
-    
-            
+
     # Create the "__eq__" method
 
     # Returns a boolean value
@@ -30,6 +29,7 @@ class Rectangle():
         if self.width == other.width and self.height == other.height:
             return True
         return False
+    
 
 def main():
     r1 = Rectangle(10, 10)
